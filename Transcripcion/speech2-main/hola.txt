@@ -1,0 +1,8 @@
+hola
+.
+
+-
+.
+
+
+from static.code.utilities import ReemplazarJergas, LimpiarTexto, TokenizarYLematizar, Word2VecTransformer

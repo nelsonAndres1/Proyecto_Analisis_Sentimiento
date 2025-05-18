@@ -1,0 +1,11 @@
+functions-framework
+google-cloud-speech
+google-cloud-storage
+joblib
+nltk
+scikit-learn
+pandas
+numpy
+dill
+lime
+

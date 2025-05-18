@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.contenedor-botones {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Espacio entre button e input */
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Efecto hover */
+.boton:hover {
+  background-color: #555555;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Clase para hacer el emoticono más grande */
+.emoticono {
+  font-size: 80px; /* Tamaño del emoticono */
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.descripcion {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 24px; /* le das aire debajo del párrafo */
+  text-align: center;
+}
+
+/* Si sentimiento es Positivo */
+.positivo {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+/* Si sentimiento es Negativo */
+.negativo {
+  background-color: #f8d7da;
+  color: #721c24;
+}
